@@ -14,6 +14,15 @@ public class Problem23 {
 
     public static void main(String[] args) {
         System.out.println(abundant(12));
+        for (int i = 24; i < 28123; i++) {
+            for (int j = 24; j <= i; j++) {
+                if (abundant(i) && abundant(j)) {
+                    //System.out.println(i + j);
+                }
+                
+            }
+        }
+        System.out.println("-Done-");
     }
 
     /**
